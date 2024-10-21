@@ -1,0 +1,36 @@
+/* Style for the box */
+.carusel{
+  width: 45rem;
+  height: 25rem;
+  border-radius: 1rem;
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.carusel{
+  display: flex;
+}
+
+.carusel > img{
+  flex: 0 0 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carusel{
+  position: relative;
+}
+  
+.carusel{
+  position: sticky;
+  left: 0;
+}
+
+.carusel{
+  scroll-snap-type: x mandatory;
+}
+
+.carusel > img{
+  scroll-snap-align: start;
+}
